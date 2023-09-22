@@ -6,9 +6,9 @@ This Music Streaming Platform is designed for the WebWizardry Competiton by usin
 
 You have to follow certain steps to check this web-application.
 
--   `Step 1: ` Clone this repository and get into the folder.
--   `Step 2: ` Use `npm install` command to install all necessary react modules.
--   `Step 3: ` Run `npm run dev` commmand to run the web-application.
+- Clone this repository and get into the folder.
+- Use `npm install` command to install all necessary react modules.
+- Run `npm run dev` commmand to run the web-application.
 
 And that's all you web-app is now visible on your localhost.
 
