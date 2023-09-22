@@ -1,19 +1,20 @@
 # React + Vite
 
-This Music Streaming Platform is designed for the WebWizardry Competiton by using `ReactJS`. To make development process a little bit faster, Vite is used.
+This Music Streaming Platform is designed for the WebWizardry Competition using `ReactJS`. To make the development process faster, Vite is used.
 
 ### How To Use?
 
-You have to follow certain steps to check this web-application.
+You have to follow some steps to check this web application.
 
 - Clone this repository and get into the folder.
 - Use `npm install` command to install all necessary react modules.
-- Run `npm run dev` commmand to run the web-application.
+- Run `npm run dev` command to run the web application.
 
-And that's all you web-app is now visible on your localhost.
+And that's all your web app is now visible on your local host.
 
 ### Team Details
 
 1. Udit Gupta (21BCS9091)
-2. Mitali Bansal (21BCS9057)
+2. Mitali Bansal (21BCS9157)
+3. Vriddhi Sharma
 
