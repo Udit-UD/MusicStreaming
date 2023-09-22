@@ -16,5 +16,4 @@ And that's all your web app is now visible on your local host.
 
 1. Udit Gupta (21BCS9091)
 2. Mitali Bansal (21BCS9157)
-3. Vriddhi Sharma
-
+3. Vriddhi Sharma (21BCS9033)
