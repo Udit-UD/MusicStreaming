@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Item.css";
+import "./Css/Item.css";
 import {AiFillPlayCircle} from "react-icons/ai";
 export default function Item({name, artists, image}) {
   return (

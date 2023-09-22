@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import "./Playbar.css"
+import "./Css/Playbar.css"
 import { BiMusic, BiPlayCircle, BiShuffle, BiSkipNext, BiSkipPrevious} from "react-icons/bi";
 import {RxLoop} from "react-icons/rx";
 

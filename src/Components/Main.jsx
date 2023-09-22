@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Main.css";
+import "./Css/Main.css";
 import Navbar from "./Navbar";
 import Profile from "../assets/Images/profile.png";
 import Item from "./Item";

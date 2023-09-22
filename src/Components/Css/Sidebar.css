@@ -14,10 +14,17 @@
     flex-direction: column;
 }
 .sidebar-buttons{
+    display: flex;
+    align-items: center;
     margin: 0.15em;
     padding: 0.75em 1em;
-    font-size: 1.1rem;
     text-align: left;
+}
+
+.sidebar-text{
+    font-size: 1.1rem;
+    margin: 0px;
+    padding-left: 5px;
 }
 
 .horizontal-bar{
@@ -25,8 +32,8 @@
 }
 
 .sidebar-new{
-    width: 100%;
     margin: 0.40em;
+    display: flex;
 }
 
 .sidebar-new > .sidebar-buttons{
@@ -36,4 +43,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@media (max-width:1100px) {
+    .sidebar-text{
+        display: none;
+    }
+    .sidebar-buttons{
+        width: 70%;
+    }
+    .sidebar-items{
+        align-items: center;
+    }
+    .sidebar-new{
+        align-items: center;
+        justify-content: center;
+    }
+    .sidebar-new > .sidebar-buttons{
+        width: 70%;
+    }
 }

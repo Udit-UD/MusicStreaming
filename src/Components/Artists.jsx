@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Artists.css";
+import "./Css/Artists.css";
 
 export default function Artists({image, name}) {
   return (
