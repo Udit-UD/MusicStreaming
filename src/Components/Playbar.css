@@ -1,0 +1,100 @@
+.playbar-container{
+    overflow: hidden;
+    background-color: rgba(74, 143, 151, 0.574);
+    border-radius: 12px 0px 0px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    top: 0;
+    position: sticky;
+    cursor: pointer;
+
+}
+
+.playbar-container:hover{
+    background-color: rgba(74, 143, 151, 0.414);
+
+}
+
+
+.music-cover{
+    width: 13vh;
+    overflow: hidden;
+    height: 12vh;
+    margin-top: 6vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.403);
+}
+.music-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* or "contain" based on your preference */
+  border-radius: 12px; /* You can apply border-radius to the image itself */
+}
+.basic-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    font-size: 1.5rem;
+    padding: 0.2em;
+}
+
+
+.basic-icons-opened{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.main-icons{
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0.2em;
+}
+
+.play-btns:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+.main-icons:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.progress-container {
+    width: 100%;
+    height: 5px;
+    margin-top: 30vh;
+    background-color: #ccc;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+  }
+  
+  .left-bar {
+    height: 100%;
+    width: 50%; 
+    background-color: #eeeeee; 
+  }
+  
+  .ball {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    right: 0;
+  }
+  
